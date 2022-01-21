@@ -1,2 +1,6 @@
 basicamente uno tendria que crear simpre una rama dev y una master y trabajar en la dev. Cuando se quiere fusionar la dev con la master se hace ">master$ git merge dev".
 
+git reset <commitX> --option:
+ --soft: uncommit changes, changes are left staged (index).
+ --mixed (default): uncommit + unstage changes, changes are left in working tree.
+ --hard: uncommit + unstage + delete changes, nothing left.
