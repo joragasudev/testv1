@@ -4,3 +4,5 @@ git reset <commitX> --option:
  --soft: uncommit changes, changes are left staged (index).
  --mixed (default): uncommit + unstage changes, changes are left in working tree.
  --hard: uncommit + unstage + delete changes, nothing left.
+
+-------
