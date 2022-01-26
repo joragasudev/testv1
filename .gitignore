@@ -1,3 +1,4 @@
 #gitIgnore
 .DS_Store
 explicaciones.txt
+/noGitear
